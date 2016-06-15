@@ -1,0 +1,33 @@
+.octocat {
+  display: inline-block;
+
+}
+.image-footer {
+  margin: 20px;
+}
+
+.image-number {
+  float: left;
+}
+
+ul ul li img {
+  float: right;
+  height: 150px;
+  width: 150px;
+}
+
+span {
+  clear: right;
+}
+
+img {
+  border: 5px solid grey;
+}
+
+span.image-number {
+  margin-right: 20px;
+}
+
+div.image-caption {
+  clear: right;
+}
