@@ -26,6 +26,7 @@ img {
 .authors img {
   height: 2rem;
   width: 2rem;
+  float: right;
 }
 
 li {
@@ -37,15 +38,22 @@ span.image-number:before {
 }
 
 span.image-number {
-  clear: right;
+  float: left;
+}
+.image-caption {
+  float: right;
 }
 
 a {
   text-decoration: none;
 }
-/*.image-footer {
-  margin: 20px;
+
+.image-footer {
+  border-bottom: 1px solid grey;
+  height: 10px;
 }
+
+/*
 
 .image-number {
   float: left;
