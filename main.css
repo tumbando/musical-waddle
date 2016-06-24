@@ -1,8 +1,14 @@
+
+
 .octocat {
   display: inline-block;
-
 }
-.image-footer {
+
+img {
+  height: 13rem;
+  width: 13rem;
+}
+/*.image-footer {
   margin: 20px;
 }
 
@@ -30,4 +36,4 @@ span.image-number {
 
 div.image-caption {
   clear: right;
-}
+}*/
