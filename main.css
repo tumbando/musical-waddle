@@ -6,11 +6,22 @@
 
 .octocat {
   display: inline-block;
+  margin: 10px;
 }
 
 .octocat img {
   border: 1px solid grey;
+}
 
+.authors:after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 21rem;
+    border-top: 10px solid gray;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
 }
 
 img {
@@ -20,6 +31,7 @@ img {
 
 .authors {
   padding-left: 0;
+  margin-top: -8px;
   float: right;
 }
 
@@ -39,18 +51,24 @@ span.image-number:before {
 
 span.image-number {
   float: left;
+  padding-top: 8px;
 }
 .image-caption {
   float: right;
-}
+  padding-top: 8px;
 
+}
+.image-caption span {
+  padding-top:5px;
+}
 a {
   text-decoration: none;
 }
 
 .image-footer {
   border-bottom: 1px solid grey;
-  height: 10px;
+  height: 38px;
+  width: 98%;
 }
 
 /*
