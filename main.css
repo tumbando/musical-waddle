@@ -10,15 +10,16 @@
 }
 
 .octocat img {
-  border: 1px solid grey;
+  border: 1px solid #cacaca;
 }
 
-.authors:after {
+.octocat:after {
     content: '';
-    position: absolute;
+    position: relative;
     height: 0;
     width: 0;
-    top: 21rem;
+    left: 295px;
+    top: -51px;
     border-top: 10px solid gray;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
@@ -31,14 +32,15 @@ img {
 
 .authors {
   padding-left: 0;
-  margin-top: -8px;
+  margin-top: -25px;
   float: right;
 }
 
 .authors img {
-  height: 2rem;
-  width: 2rem;
-  float: right;
+    height: 2rem;
+    width: 2rem;
+    float: right;
+    margin-top: 20px;
 }
 
 li {
@@ -49,6 +51,9 @@ span.image-number:before {
   content: '#';
 }
 
+span {
+  color: #cacaca;
+}
 span.image-number {
   float: left;
   padding-top: 8px;
@@ -58,17 +63,23 @@ span.image-number {
   padding-top: 8px;
 
 }
+
 .image-caption span {
-  padding-top:5px;
+    padding-top: 5px;
+    padding-right: 5px;
 }
+
 a {
-  text-decoration: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
 
 .image-footer {
-  border-bottom: 1px solid grey;
-  height: 38px;
-  width: 98%;
+    border-bottom: 1px solid #cacaca;
+    height: 46px;
+    width: 100%;
+    padding-top: 10px;
 }
 
 /*
