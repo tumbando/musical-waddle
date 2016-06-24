@@ -21,6 +21,9 @@ img {
 li {
   list-style: none;
 }
+span:before {
+  content: '#';
+}
 /*.image-footer {
   margin: 20px;
 }
