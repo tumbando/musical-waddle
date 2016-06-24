@@ -9,9 +9,17 @@ img {
   width: 13rem;
 }
 
+.authors {
+  padding-left: 0;
+  float: right;
+}
+
 .authors img {
   height: 2rem;
   width: 2rem;
+}
+li {
+  list-style: none;
 }
 /*.image-footer {
   margin: 20px;
