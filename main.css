@@ -5,8 +5,8 @@
 }
 
 img {
-  height: 13rem;
-  width: 13rem;
+  height: 20rem;
+  width: 20rem;
 }
 
 .authors {
@@ -21,7 +21,7 @@ img {
 li {
   list-style: none;
 }
-span:before {
+span.image-number:before {
   content: '#';
 }
 /*.image-footer {
