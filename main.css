@@ -39,6 +39,10 @@ span.image-number:before {
 span.image-number {
   clear: right;
 }
+
+a {
+  text-decoration: none;
+}
 /*.image-footer {
   margin: 20px;
 }
