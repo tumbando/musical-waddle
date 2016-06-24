@@ -8,6 +8,11 @@ img {
   height: 13rem;
   width: 13rem;
 }
+
+.authors img {
+  height: 2rem;
+  width: 2rem;
+}
 /*.image-footer {
   margin: 20px;
 }
