@@ -1,7 +1,16 @@
+.octodex {
+  padding-left: 0;
+}
+
 
 
 .octocat {
   display: inline-block;
+}
+
+.octocat img {
+  border: 1px solid grey;
+
 }
 
 img {
@@ -18,11 +27,17 @@ img {
   height: 2rem;
   width: 2rem;
 }
+
 li {
   list-style: none;
 }
+
 span.image-number:before {
   content: '#';
+}
+
+span.image-number {
+  clear: right;
 }
 /*.image-footer {
   margin: 20px;
